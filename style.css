@@ -1,6 +1,6 @@
 body
 {
-    background-color: aqua;
+    background-color: #34bdeb;
 }
 
 #navigation
@@ -34,25 +34,25 @@ body
     border-radius: 50px;
     font-size: 100px;
     color: blue;
-    background-color: aqua;
+    background-color: #34bdeb;
     font-family: 'Times New Roman';
     text-align: center;
 }
 
 #home:hover
 {
-    color: aqua;
-    background-color: red;
+    color: #34bdeb;
+    background-color: aqua;
 }
 
 #home a:visited
 {
-    color: blue;
+    color:blue;
 }
 
 #home a:hover
 {
-    color: aqua
+    color: darkblue;
 }
 
 #desc
