@@ -1,0 +1,227 @@
+html
+{
+    zoom: 67%;
+}
+
+body
+{
+    background-color: white;
+}
+
+#navigation
+{
+    position: fixed;
+    height: auto;
+    width: 100%;
+    float: left;
+    border: black solid 2px;
+    background-color: #00cee0;
+    top: 0;
+    z-index:  100;
+}
+
+#title
+{
+    height: 200px;
+    width: 715px;
+    float: left;
+    background-image: url(logo.png);
+    background-size: 100% 100%;
+}
+
+#home 
+{   height: 200px;
+    width:30%;
+    float: left;
+
+    
+    font-size: 100px;
+    color: blue;
+    background-color: #00cee0;
+    font-family: 'Times New Roman';
+    text-align: center;
+}
+
+#home:hover
+{
+    color: #00cee0;
+    background-color: #029cb0;
+}
+
+#home a:visited
+{
+    color:blue;
+}
+
+#desc
+{
+    position: relative;
+    height: 100px;
+    width: 100%;
+    border: black solid 2px;
+    float: left;
+    background-color: #00cee0;
+}
+
+
+#desc h1
+{
+    text-align: center;
+    font-size: 50px; 
+    font-family: 'Times New Roman'; 
+    color: black;
+}
+
+#headlines
+{
+    position: absolute;
+    top: 400px;
+    left: 50px;
+    height: 750px;
+    width: 1800px;
+    border: black solid 2px;
+    animation-name: headline-change;
+    animation-duration: 80s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#information
+{
+    position: absolute;
+    top: 1250px;
+    left: 50px;
+    height: auto;
+    width: 1800px;
+}
+
+#information h1
+{
+    font-family: 'Times New Roman';
+    font-size: 100px;
+    color: black;
+    text-align: center;
+}
+
+#information p
+{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    color: black;
+    text-align: center;
+}
+
+@keyframes headline-change
+{
+    0%{background-image: url(euros.png);}
+    12.5%{background-image: url(euros.png);}
+    25%{background-image: url(sadiq.png);}
+    37.5%{background-image: url(g7.png);}
+    50%{background-image: url(tokyo.png);}
+    62.5%{background-image: url(travel.png);}
+    75%{background-image: url(vaccine.png);}
+    87.5%{background-image: url(tesla.png);}
+    100%{background-image: url(interview.png);}
+}
+
+
+/* This is where the CSS for the articles begins */
+
+#links
+{
+    position: absolute;
+    top: 450px;
+    width: 1750px;
+}
+
+#links h1
+{
+    font-family: 'Times New Roman';
+    font-size: 100px;
+    color: black;
+    text-align: center;
+}
+
+#links p
+{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    color: black;
+    text-align: center;
+}
+
+
+
+#article-desc
+{
+    height: auto;
+    width: 100%;
+}
+
+#article-link
+{
+    height: auto;
+    width: 30%;
+
+    border: 2px solid black;
+    border-radius: 20px;
+
+    font-family: 'Times New Roman';
+    font-size: 100px;
+    color: blue;
+    text-align: center;
+
+    background-color: #029cb0;
+}
+
+#article-link:hover
+{
+    color: #00cee0;
+    background-color: #00538f;
+}
+
+#article-link a:visited
+{
+    color:blue;
+}
+
+#summary
+{
+    position: absolute;
+    left: 36%;
+    height: auto;
+    width: 70%
+}
+
+#summary p
+{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    color: black;
+    text-align: center;
+}
+
+/* The articles */
+
+#article
+{
+    position: absolute;
+    top: 450px;
+    width: 1750px;
+}
+
+#article h1
+{
+    font-family: 'Times New Roman';
+    font-size: 100px;
+    color: black;
+    text-align: center;
+}
+
+#article p
+{
+    font-family: 'Times New Roman';
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
